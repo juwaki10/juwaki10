@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <link rel="icon" type="images/png" href="images/sa-logo.png">
+        <title> JUDY'S BLOG CONTACT PAGE</title>
+    
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: crimson;
+    }
+    .write {
+        background-image: url("images/white-cubes.jpg");
+        background-size: 50%;
+        padding: 3rem;
+    }
+    h1 {
+				font-size: 3.375rem;
+				line-height: 1.33;
+				letter-spacing: -2px;
+				margin: .5rem 0 3rem;
+                color: black;
+                text-shadow: 3px 3px 5px;
+			}
+
+			h2 {
+				font-size: 2.5rem;
+				line-height: 1.5;
+				font-weight: 400;
+				color: rgb(224, 9, 206);
+				margin-bottom: 3rem;
+                text-shadow: 3px 3px 5px;
+			}
+            .btn {
+				display: inline-block;
+				color: white;
+				background-color:cornflowerblue;
+				border-radius: 100px;
+				padding: 1rem 2rem;
+				display: inline-flex;
+				gap: .5rem;
+				align-items: center;
+			}
+            header {
+				margin-bottom: 1rem;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+            }
+            header img {
+				border-radius: 2rem;
+			}
+            footer {
+				align-items: center;
+				font-size: small;
+				margin-top: 2rem;
+			}
+            a {
+				color:rgb(223, 17, 113);
+				text-decoration: none;
+				font-weight: 800;
+			}
+			a:hover {
+				color: aqua;
+			}
+            span {
+                color: darkorange;
+                font-weight: 1000;
+            }
+            .class-2 {
+                background-image: url("images/dark-bg.jpg");
+                background-size: 100% ;
+                width: 50%;
+                height: 50%;
+                background-color: aquamarine ;
+                display: grid;
+                border-radius: 20px;
+                
+            }
+            .class-3 {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				justify-items: center;
+				align-items: center;
+				gap: 8rem;
+			}
+           
+</style>
+</head>
+<body class="class-1">
+   <section class="write">
+       <header class="main-header">
+                 <img src="images/sa-logo.png" width=100px height=100px alt="sa-logo">
+            <div class="card">
+                <h1>Stephany's Blog</h1>
+            </div>
+            <h2>Get in touch with me;</h2> 
+        </header>
+
+        <section class="class-2">
+            <h3>Write to me;</h3>
+    
+                <form action="" method="post">
+            <div>
+                <label for="message-name">Full Names</label>
+                <input type="text"name="message-name"id="message-name" placeholder="Your Full name" autofocus>
+            </div>
+            <div>
+                <label for="message-email">Email address</label>
+                <input type="email"name="message-email"id="message-email" disabled value="yourname@gmail.com">
+            </div>
+            <div>
+				<label for="message-content">Message Content</label>
+				<textarea name="message-content" id="message-content" cols="50" rows="10"></textarea>
+			</div>
+            <a href="mailto:jukihungi@gmail.com" class="btn">Send Message</a>
+            </form>
+            <div>
+
+            </div>
+        </section>
+
+    <section class="class-3">
+        <div>
+        <p>
+            <span>Email Address</span><br>
+            <a href="mailto:jukihungi@gmail.com">jukihungi@gmail.com</a><br>
+        </p>
+
+        <p>
+            <span>Telephone Number</span><br>
+            <a href="#">+254 114435790</a>
+        </p>
+        <p>
+            <span>Github</span><br>
+            <a href="https://github.com/juwaki10/juwaki10">https://github.com/juwaki10/juwaki10</a>
+        </p>
+        </div>
+    
+    <div>
+        <p>
+            <span>Whatsapp Number</span><br>
+            <a href="#">+254 114435790</a>
+        </p>
+        <p>
+            <span>Linked In</span><br>
+            <a href="https://www.linkedin.com/in/judy-wanjiku-822381235/">https://www.linkedin.com/in/judy-wanjiku-822381235/</a>
+        </p>
+        <p>
+            <span>Facebook</span><br>
+            <a href="https://www.facebook.com/profile.php?id=100073690684359">https://www.facebook.com/profile.php?id=100073690684359</a>
+        </p>
+        <hr>
+    </div>
+    </section>
+    
+    <a href="blog-home.html" class="btn">Home Page <img src="images/arrow-right-white.svg" alt="Home Page"></a>
+    <footer>
+        Author: Judy Kihungi <br>
+        &copy; copyright Reserved <br>
+        <a href="mailto:jukihungi@gmail.com">jukihungi@gmail.com</a>
+    </footer>
+</section>
+</body>
+</html>

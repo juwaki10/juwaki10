@@ -1,0 +1,172 @@
+<html>
+    <head>
+		<link rel="icon" type="images/png" href="images/sa-logo.png">
+        <title>JUDY'S BLOG WEBSITE</title>
+        <style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: 'Poppins', sans-serif;
+				color:white;
+			}
+
+			.class-2 {
+				padding: 4rem;
+                background-image: url("images/blue-bg.png");
+				background-size: 100%;
+			}
+
+			h1 {
+				font-size: 3.375rem;
+				line-height: 1.33;
+				letter-spacing: -2px;
+				margin: .5rem 0 3rem;
+			}
+
+			h2 {
+				font-size: 1.5rem;
+				line-height: 1.5;
+				font-weight: 400;
+				color: rgb(206, 28, 28);
+				margin-bottom: 3rem;
+			}
+
+			nav ul {
+				list-style: none;
+				padding: 0;
+			}
+
+			a {
+				color:rgb(19, 42, 59);
+				text-decoration: none;
+				font-weight: 500;
+			}
+
+			.btn {
+				display: inline-block;
+				color: white;
+				background-color: #2C86D9;
+				border-radius: 100px;
+				padding: 1rem 2rem;
+				display: inline-flex;
+				gap: .5rem;
+				align-items: center;
+			}
+
+			.btn.outline {
+				background-color: transparent;
+				border: 2px solid #2C86D9;
+				color: #2C86D9;
+			}
+
+			header {
+				margin-bottom: 6rem;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				font-size: 2rem;
+			}
+			header img {
+				border-radius: 2rem;
+			}
+			footer {
+				align-items: center;
+				font-size: small;
+				margin-top: 2rem;
+			}
+
+			nav ul {
+				display: flex;
+				gap: 2rem;
+				text-shadow: 3px 3px 5px;
+			}
+            a {
+				color:rgb(223, 17, 113);
+				text-decoration: none;
+				font-weight: 800;
+			}
+			a:hover {
+				color: aqua;
+			}
+			.class-3 {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				justify-items: center;
+				align-items: center;
+				gap: 8rem;
+			}
+
+			.class-3 img {
+				max-width: 100%;
+				border-radius: 2rem;
+			}
+			.btn mobile{
+				display: none;
+			}
+			@media screen and (max-width: 1200px) {
+				header nav,
+				header .btn {
+					display: none;
+				}
+				.btn-mobile{
+					display: inline-block;
+				}
+				.class-3 {
+					grid-template-columns: 100%;
+					gap: 4rem;
+				}
+				#class-3-illustration {
+					order: -1;
+				}
+				header {
+					margin-bottom: 4rem;
+				}
+				h1,
+				h2 {
+					margin-bottom: 2rem;
+				}
+			}
+		</style>
+	</head>
+	<body class="class-1">
+		<section class="class-2">
+			
+
+			<header class="main-header">
+				<a href=""><img src="images/sa-logo.png" width=100px height=100px alt="sa-logo Logo"></a>
+
+				<nav>
+					<ul>
+						<li><a href="blog-home.html">Home</a></li>
+						<li><a href="blog-about.html">About Me</a></li>
+						<li><a href="blog-posts.html">Blog Posts</a></li>
+						<li><a href="blog-contact.html">Contact</a></li>
+					</ul>
+				</nav>
+
+				<a href="" class="btn-mobile"><img src="images/menu-dots.svg" alt="Menu dots"></a>
+			</header>
+
+			<section class="class-3">
+
+				<div class="content">
+					
+					<h1>Welcome to Judy's Blog Web Page</h1>
+					<h2>A trusted place to learn your daily IT hacks, tips and tricks.</h2>
+
+					<a href="" class="btn">HOME PAGE <img src="images/arrow-right-white.svg" alt="Home"></a>
+				</div>
+                <img src="images/woman-laptop.jpg" id="class-3-illustration" alt="woman-laptop">	
+			</section>
+            <footer>
+				Author: Judy Kihungi <br>
+				&copy; copyright Reserved <br>
+				<a href="mailto:jukihungi@gmail.com">jukihungi@gmail.com</a>
+			</footer>
+			
+		</section>
+
+    </body>
+</html>
